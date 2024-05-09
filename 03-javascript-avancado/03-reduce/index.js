@@ -16,8 +16,8 @@ console.log(quantidadeDeOrdens); */
     return somaOrdens + ordem.quantidade;
 }, 0);
 
-console.log(quantidadeDeOrdens);
- */
+console.log(quantidadeDeOrdens); */
+
 
 let quantidadeDeOrdens = ordens.reduce((somaOrdens, ordem) => somaOrdens + ordem.quantidade, 0);
 
